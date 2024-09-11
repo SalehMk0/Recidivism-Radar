@@ -1,37 +1,36 @@
-<img src="./readme/title1.svg"/>
+<img src="readme/title1.svg"/>
 
 <br><br>
 
 <!-- project philosophy -->
-<img src="./readme/title2.svg"/>
+<img src="readme/title2.svg"/>
 
-> A mobile app for ordering coffee on-the-go, making it easier for coffee lovers to get their favorite beverages without waiting in line.
+> A data project based on Recidivism and Crimes records to uncover its results affected by a set of individual history and public factors.
 >
-> Coffee Express aims to streamline the coffee-ordering process by providing a user-friendly platform for customers to place orders and pick up their coffee at their convenience. We believe in enhancing the coffee experience by saving time and ensuring customer satisfaction.
+>  Recidivism Radar, leverages advanced data analytics to understand and predict patterns of recidivism within the criminal justice system. By integrating comprehensive datasets encompassing socioeconomics, poverty, population demographics, and crime statistics, it aims to uncover critical insights that influence recidivism rates over time.
 
 ### User Stories
-- As a user, I want to browse the menu, so I can find my favorite coffee drinks.
-- As a user, I want to customize my order, so I can add or remove ingredients according to my preferences.
-- As a user, I want to pay for my order through the app, so I can avoid waiting in line at the store.
+- As a researcher, I want to analyze recidivism trends over time, so I can identify patterns and key factors influencing recidivism rates.
+- As a policymaker, I want to visualize socioeconomic and demographic data using interactive dashboards, so I can understand the underlying causes of recidivism and inform policy decisions.
+- As a law enforcement officer, I want to explore real-time insights on recidivism rates using Power BI, so I can allocate resources effectively and reduce repeat offenses.
 
 <br><br>
 <!-- Tech stack -->
-<img src="./readme/title3.svg"/>
+<img src="readme/title3.svg"/>
 
-###  Coffee Express is built using the following technologies:
+###  Recidivism Radar is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
-- The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+- Python: Python is the core programming language used for data analysis, machine learning, and building predictive models. It allows us to efficiently process and analyze large datasets related to recidivism, socioeconomics, and crime.
+- SQL: SQL is used to manage and query the data warehouse, enabling the extraction of relevant data such as demographic information, crime statistics, and socioeconomic factors for further analysis and reporting.
+- Power BI: Power BI is employed for data visualization and reporting. It provides interactive dashboards that display time series trends and insights into recidivism rates, allowing stakeholders to explore the data dynamically.
+
 
 <br><br>
 <!-- UI UX -->
-<img src="./readme/title4.svg"/>
+<img src="readme/title4.svg"/>
 
 
-> We designed Coffee Express using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> We designed Recidivism Radar with data accessibility and clarity in mind.The design emphasizes interactive visualizations and efficient data exploration, making it easy for users to gain valuable insights into recidivism trends and socio-economic factors.
 
 - Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
 
@@ -44,7 +43,7 @@
 <br><br>
 
 <!-- Database Design -->
-<img src="./readme/title5.svg"/>
+<img src="readme/title5.svg"/>
 
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
@@ -55,7 +54,7 @@
 
 
 <!-- Implementation -->
-<img src="./readme/title6.svg"/>
+<img src="readme/title6.svg"/>
 
 
 ### User Screens (Mobile)
@@ -76,7 +75,7 @@
 
 
 <!-- Prompt Engineering -->
-<img src="./readme/title7.svg"/>
+<img src="readme/title7.svg"/>
 
 ###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
@@ -85,7 +84,7 @@
 <br><br>
 
 <!-- AWS Deployment -->
-<img src="./readme/title8.svg"/>
+<img src="readme/title8.svg"/>
 
 ###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
 
@@ -94,7 +93,7 @@
 <br><br>
 
 <!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
+<img src="readme/title9.svg"/>
 
 ###  Precision in Development: Harnessing the Power of Unit Testing:
 
@@ -104,32 +103,44 @@
 
 
 <!-- How to run -->
-<img src="./readme/title10.svg"/>
+<img src="readme/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up Recidivism Radar locally, follow these steps:
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pip
   ```sh
-  npm install npm@latest -g
+   pip install pandas
+   pip install numpy
+   pip install scikit-learn
+   pip install mlflow
+   pip install sqlalchemy
+   pip install flask
+
   ```
+    
 
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
-Now, you should be able to run Coffee Express locally and explore its features.
+1. Clone the repo
+   git clone [github](https://github.com/SalehMk0/Recidivism-Radar.git)
+2. Install pip packages
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the sql file dwh.sql to initialize the data warehouse.
+
+4. Run the cleaning files.
+5. Run the Load file to load the data into the data warehouse.
+6. Run the timeseries analysis file to run the timeseries
+7. Run the Model file to set up the model and make predictions.
+8. Open the analysis (power bi) file to see further analysis.
+ 
+
+
+Now, you should be able to setup Recidivism Radar locally and explore its features.
