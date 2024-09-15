@@ -28,14 +28,6 @@
 <br><br>
 
 
-
-### Mockups
-| Home screen  | Menu Screen | Order Screen |
-| ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-
-<br><br>
-
 <!-- Data warehouse Design -->
 <img src="readme/title5.svg"/>
 
@@ -86,12 +78,12 @@
 
 <br><br>
 
-<!-- Unit Testing -->
+<!-- Data Validation -->
 <img src="readme/title9.svg"/>
 
 ###  Precision in Development: Harnessing the Power of Unit Testing:
 
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
+- This project employs rigorous data validation methodology to ensure the integrity and consistency of the data. By applying some python queries evaluating data types in the warehouse, then checking for the presence of all the intended data, we can ensure a successful ETL process.
 
 <br><br>
 
@@ -131,10 +123,12 @@ _Below is an example of how you can instruct your audience on installing and set
 
 4. Run the cleaning files.
 5. Run the Load file to load the data into the data warehouse.
-6. Run the timeseries analysis file to run the timeseries
+6. Run the timeseries analysis file to explore the plots.
 7. Run the Model file to set up the model and make predictions.
-8. Open the analysis (power bi) file to see further analysis.
+8. Run the mlflow server and the python flask app. 
+9. Open the browser to view the page and make a prediction. 
+10. Open the analysis file (Power BI) to see beautiful dynamic visuals.
  
 
 
-Now, you should be able to setup Recidivism Radar locally and explore its features.
+Now, you should be able to explore Recidivism Radar locally.
