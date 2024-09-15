@@ -26,13 +26,7 @@
 
 
 <br><br>
-<!-- UI UX -->
-<img src="readme/title4.svg"/>
 
-
-> We designed Recidivism Radar with data accessibility and clarity in mind.The design emphasizes interactive visualizations and efficient data exploration, making it easy for users to gain valuable insights into recidivism trends and socio-economic factors.
-
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
 
 
 ### Mockups
@@ -42,10 +36,10 @@
 
 <br><br>
 
-<!-- Database Design -->
+<!-- Data warehouse Design -->
 <img src="readme/title5.svg"/>
 
-###  Architecting Data Excellence: Innovative Database Design Strategies:
+###  Architecting Data Excellence: Innovative Data warehouse Design Strategies:
 
 - Insert ER Diagram here
 
