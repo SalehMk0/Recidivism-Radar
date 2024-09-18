@@ -7,7 +7,7 @@ import mlflow.sklearn
 
 app = Flask(__name__)
 
-model = mlflow.sklearn.load_model(f"runs:/040a1a3545874c56abb010d605ae8f0e/model")
+model = mlflow.sklearn.load_model(f"runs:/45b5223bc3c645daaf71a3c21765ca3c/model")
 @app.route('/', methods=['GET'])
 def home():
     return render_template('index.html')
