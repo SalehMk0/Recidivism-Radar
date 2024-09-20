@@ -33,7 +33,7 @@
 
 ###  Architecting Data Excellence: Innovative Data warehouse Design Strategies:
 
-- Insert ER Diagram here
+- <img src="readme/demo/dwh_design.png">
 
 
 <br><br>
@@ -43,19 +43,13 @@
 <img src="readme/title6.svg"/>
 
 
-### User Screens (Mobile)
-| Login screen  | Register screen | Landing screen | Loading screen |
-| ---| ---| ---| ---|
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
 
 ### Admin Screens (Web)
-| Login screen  | Register screen |  Landing screen |
+| Landing page  | First page |  Dashboard details |
 | ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Landing](./readme/demo/landing_page.png) | ![fsdaf](./readme/demo/first_page.png) | ![fsdaf](./readme/demo/gif.gif) |
+| Time series  | Model prediction | Time Series|
+| ![Landing](./readme/demo/time_series1.png) | ![fsdaf](./readme/demo/ML.png) | ![fsdaf](./readme/demo/time_series.png) |
 
 <br><br>
 
@@ -65,25 +59,19 @@
 
 ###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
+- This project leverages machine learning techniques to optimize the analysis of recidivism patterns. By curating and preparing detailed datasets, such as inmate demographics, offense history, and risk scores, we develop predictive models to identify potential recidivism factors.
 
 <br><br>
 
-<!-- AWS Deployment -->
-<img src="readme/title8.svg"/>
 
-###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
-
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
-
-<br><br>
 
 <!-- Data Validation -->
 <img src="readme/title9.svg"/>
 
-###  Precision in Development: Harnessing the Power of Unit Testing:
+###  Precision in Loading: Harnessing the Power of Data Validation:
 
 - This project employs rigorous data validation methodology to ensure the integrity and consistency of the data. By applying some python queries evaluating data types in the warehouse, then checking for the presence of all the intended data, we can ensure a successful ETL process.
+<img src="readme/demo/data_validation.png">
 
 <br><br>
 
