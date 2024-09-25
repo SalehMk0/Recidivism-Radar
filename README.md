@@ -45,12 +45,11 @@
 
 
 ### Admin Screens (Web)
-| Landing page  |  Dashboard details |
-| ---| ---| ---|
-| ![Landing](./readme/demo/landing_page.png) | ![fsdaf](./readme/demo/gif.gif) |
-| Time series  | Model prediction | 
-| ![Landing](./readme/demo/time_series1.png) | ![fsdaf](./readme/demo/ML.png) | 
-
+| Landing page  | Dashboard details 
+| ---| ---|
+| ![Landing](./readme/demo/landing_page.png) |![fsdaf](./readme/demo/gif.gif) |
+| Time series  | Model prediction 
+| ![Landing](./readme/demo/time_series1.png) | ![fsdaf](./readme/demo/modelgif.gif) 
 <br><br>
 
 
