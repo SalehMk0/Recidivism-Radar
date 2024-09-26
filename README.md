@@ -49,7 +49,7 @@
 | ---| ---|
 | ![Landing](./readme/demo/landing_page.png) |![fsdaf](./readme/demo/gif.gif) |
 | Time series  | Model prediction 
-| ![Landing](./readme/demo/time_series1.png) | ![fsdaf](./readme/demo/modelgif.gif) 
+| ![Landing](./readme/demo/time_series1.png) | ![fsdaf](./readme/demo/powerbi.gif) 
 <br><br>
 
 
