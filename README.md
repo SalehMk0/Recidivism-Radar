@@ -113,8 +113,9 @@ _Below is an example of how you can instruct your audience on installing and set
 6. Run the timeseries analysis file to explore the plots.
 7. Run the Model file to set up the model and make predictions.
 8. Run the mlflow server and the python flask app. 
-9. Open the browser to view the page and make a prediction. 
-10. Open the analysis file (Power BI) to see beautiful dynamic visuals.
+9. Open the browser to view the page and make a prediction.
+10. Download the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58494">Power BI Desktop</a>
+11. Open the analysis file (Power BI) to see beautiful dynamic visuals.
  
 
 
